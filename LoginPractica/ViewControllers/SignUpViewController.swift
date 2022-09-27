@@ -8,7 +8,16 @@
 import UIKit
 
 class SignUpViewController: UIViewController {
-
+    @IBOutlet var firstNameTextfield: UITextField!
+    
+    @IBOutlet var passwordTextField: UITextField!
+    
+    @IBOutlet var emailTextField: UITextField!
+    
+    @IBOutlet var lastNameTextField: UITextField!
+    
+    @IBOutlet var signUpButton: UIButton!
+    @IBOutlet var errorLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,5 +34,7 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func signUpTapped(_ sender: Any) {
+    }
+    
 }

@@ -9,6 +9,10 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet var firstNameTextField: UITextField!
+    @IBOutlet var lastNameTextField: UITextField!
+    @IBOutlet var loginButton: UIButton!
+    @IBOutlet var errorLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,5 +29,7 @@ class LoginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func loginTapped(_ sender: Any) {
+    }
+    
 }
